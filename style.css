@@ -1,0 +1,59 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-align: center;
+}
+
+.container {
+  width: 90%;
+  margin: 0 auto;
+}
+
+.search {
+  background-color: #eeeeee;
+  height: 61px;
+  margin-bottom: 4px;
+  display: flex;
+  flex-direction: column;
+}
+
+.boxs {
+  display: flex;
+  gap: 2px;
+}
+
+.Special {
+  background-color: rgb(126, 229, 218);
+  flex-grow: 2;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.help {
+  background-color: rgb(112, 204, 194);
+  flex-grow: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.get {
+  background-color: rgb(98, 179, 170);
+  flex-grow: 2.3;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+footer {
+  margin-top: 30px;
+  font-size: 16px;
+}
+
+.sub-arc {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+}
